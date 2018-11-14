@@ -42,3 +42,19 @@ h4 + div > h4{
 h4 + div ~ h4{
     background-color:blue; 
 }
+
+.grandparent > h4{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 4px;
+}
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+input{
+    height: 25px;
+}
